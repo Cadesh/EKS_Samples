@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: counter-config
+  labels:
+    app: counter
+data:
+  DB_DB: counter
+  DB_USER: admin 
+  DB_PASS: password92959491
+  # Note the DB Password is also in 1.1_PostGres_configMap.yaml
