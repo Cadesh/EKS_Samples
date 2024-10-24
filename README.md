@@ -34,8 +34,6 @@ Run the following script to create the network infrastructure using the yml temp
 ./1_create_network_public_subnet.sh
 ```
 
----
-
 #### `k8s_vpc_public_subnet_only.yml`
 This is a CloudFormation template that creates the following resources:
 
