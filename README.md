@@ -61,6 +61,12 @@ Run the following script to create the EKS cluster:
 ./1_create_k8s_cluster.sh
 ```
 
+It is possible to include addons to the deployment with:
+
+```bash
+./3_InstallEKSAddOn.sh
+```
+
 ---
 
 ### 1.3_LaunchApp
@@ -93,5 +99,7 @@ This script will apply the necessary Kubernetes resources to deploy the PostgreS
 
 After the deployment, you can access the counter application using the provided URL, and the Adminer instance using the provided URL.
 
+### 1.4 AddOns
 
+The first addon tested is the S3 MountPoint.
 
